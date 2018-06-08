@@ -12,6 +12,7 @@
 		45C802CA20CA577800BD83D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C802C820CA577800BD83D1 /* Main.storyboard */; };
 		45C802CC20CA577900BD83D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C802CB20CA577900BD83D1 /* Assets.xcassets */; };
 		45C802CF20CA577900BD83D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C802CD20CA577900BD83D1 /* LaunchScreen.storyboard */; };
+		45C802D720CA620100BD83D1 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C802D620CA620100BD83D1 /* AlertHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		45C802CB20CA577900BD83D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45C802CE20CA577900BD83D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45C802D020CA577900BD83D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C802D620CA620100BD83D1 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				45C802CB20CA577900BD83D1 /* Assets.xcassets */,
 				45C802CD20CA577900BD83D1 /* LaunchScreen.storyboard */,
 				45C802D020CA577900BD83D1 /* Info.plist */,
+				45C802D620CA620100BD83D1 /* AlertHelper.swift */,
 			);
 			path = "StoreReviewController-Sample";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C802D720CA620100BD83D1 /* AlertHelper.swift in Sources */,
 				45C802C720CA577800BD83D1 /* ViewController.swift in Sources */,
 				45C802C520CA577800BD83D1 /* AppDelegate.swift in Sources */,
 			);
@@ -283,7 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LVR5UQEHBD;
 				INFOPLIST_FILE = "StoreReviewController-Sample/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LVR5UQEHBD;
 				INFOPLIST_FILE = "StoreReviewController-Sample/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
