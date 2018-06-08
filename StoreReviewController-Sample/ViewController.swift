@@ -13,11 +13,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     @IBAction func popupReview(_ sender: Any) {
-        SKStoreReviewController.requestReview()
+        // 使用可能OSは10.3以上
+        if #available(iOS 10.3, *) {
+            SKStoreReviewController.requestReview()
+        }
     }
 }
 
