@@ -13,6 +13,7 @@
 		45C802CC20CA577900BD83D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C802CB20CA577900BD83D1 /* Assets.xcassets */; };
 		45C802CF20CA577900BD83D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C802CD20CA577900BD83D1 /* LaunchScreen.storyboard */; };
 		45C802D720CA620100BD83D1 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C802D620CA620100BD83D1 /* AlertHelper.swift */; };
+		45C802D920CB7F7600BD83D1 /* ReviewControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C802D820CB7F7600BD83D1 /* ReviewControllerHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		45C802CE20CA577900BD83D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45C802D020CA577900BD83D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45C802D620CA620100BD83D1 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		45C802D820CB7F7600BD83D1 /* ReviewControllerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewControllerHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				45C802CD20CA577900BD83D1 /* LaunchScreen.storyboard */,
 				45C802D020CA577900BD83D1 /* Info.plist */,
 				45C802D620CA620100BD83D1 /* AlertHelper.swift */,
+				45C802D820CB7F7600BD83D1 /* ReviewControllerHelper.swift */,
 			);
 			path = "StoreReviewController-Sample";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45C802D720CA620100BD83D1 /* AlertHelper.swift in Sources */,
+				45C802D920CB7F7600BD83D1 /* ReviewControllerHelper.swift in Sources */,
 				45C802C720CA577800BD83D1 /* ViewController.swift in Sources */,
 				45C802C520CA577800BD83D1 /* AppDelegate.swift in Sources */,
 			);
